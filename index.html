@@ -1,0 +1,680 @@
+﻿<html>
+<head>
+<title></title>
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper.js -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: Comic Sans MS,'Open Sans',serif;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.content {
+  padding-bottom: 90px;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: -105px;
+  width: 100%;
+  height: 80px;
+  background-color: grey;
+}
+.header {
+position: fixed;
+height: 100px;
+width: 100%;
+background-color: #CCFFCC;
+padding-left: 20px;
+z-index: 2;
+}
+.logo{
+display:inline-block;
+position: relative;
+background-image: URL(images/logo.png);
+background-size: cover;
+min-height: 110px;
+min-width: 110px;
+bottom: 20px;
+}
+.header-text {
+display:inline-block;
+position: relative;
+left: 20px;
+bottom: 75px;
+font-style: italic;
+font-family:Monotype Corsiva, Times, Serif;
+font-size: 20pt;
+}
+.header-text b {
+position: relative;
+top: 7px;
+padding-left: 10px;
+}
+.button-haeder {
+position: relative;
+float: right;
+bottom: 70px;
+right: 70px;
+}
+
+.content{
+position: relative;
+width: 100%;
+border: 1px solid back;
+background-color: ;
+top: 100px;
+}
+.start {
+padding: 40px;
+min-height: 550px;
+}
+.content-image {
+display:inline-block;
+background-color: ;
+}
+.content-text {
+position: relative;
+display:inline-block;
+padding: 20px;
+min-height: 550px;
+min-width: 400px;
+width: 400px;
+vertical-align: top;
+background-color: #CCFF66;
+}
+
+.weeks {
+position: relative;
+padding-left: 100px;
+padding-top: 100px;
+font-family:'Open Sans',serif;
+}
+.week1 {
+background-color: #CCFFCC;
+}
+.week2 {
+background-color: #CCFFFF;
+}
+.week3 {
+background-color: #CC99FF;
+}
+.week4 {
+background-color: #FFCCCC;
+}
+.week5 {
+background-color: #FFFFCC;
+}
+.week6 {
+background-color: #CCCC66;
+}
+.week7 {
+background-color: #CCFFCC;
+}
+.week8 {
+background-color: #CCFFFF;
+}
+.week9 {
+background-color: #CC99FF;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+	<div class="header">
+		<div class="logo"> </div>
+		<div class="header-text">Хорошее воспитание — это умение скрывать, как много мы думаем о себе и как мало о других. <b>Марк Твен</b></div>
+		<div class="button-haeder">		
+			<a  href="#start"><button type="button" class="btn btn-success">Главная</button></a>
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Дистанционное обучение
+				</button>
+				  <div class="dropdown-menu">
+					<a class="dropdown-item" href="#1-week">1 неделя</a>
+					<a class="dropdown-item" href="#2-week">2 неделя</a>
+					<a class="dropdown-item" href="#3-week">3 неделя</a>
+					<a class="dropdown-item" href="#4-week">4 неделя</a>
+					<a class="dropdown-item" href="#5-week">5 неделя</a>
+					<a class="dropdown-item" href="#6-week">6 неделя</a>
+					<a class="dropdown-item" href="#7-week">7 неделя</a>
+					<a class="dropdown-item" href="#8-week">8 неделя</a>
+					<a class="dropdown-item" href="#9-week">9 неделя</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Separated link</a>
+				  </div>
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Методические материалы
+				</button>
+				  <div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Методичка "оформление лабораторной работы"</a>
+					<a class="dropdown-item" href="#">Дисциплины</a>
+					<a class="dropdown-item" href="#">Дополнительные материалы</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Цитаты</a>
+				  </div>
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Конаткты
+				</button>
+				  <div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<a class="dropdown-item" href="#">Something else here</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Separated link</a>
+				  </div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<a name="start"></a>
+		<div class="start">
+			<div class="content-image">
+				<img src="images/Im1.jpg" height="550">
+			</div>
+			<div class="content-text">
+				<h2>Багдасарьян Михаил Владиславович</h2><br>
+				Преподаватель колледжа ЛГУ им. Владимира Даля, методическая комиссия «Программирования и компьютерных
+				дисциплин».<br>
+				Магистр "Информационные системы и технологии".
+			</div>
+			<div class="content-text">
+				<h2>Переподаваемые дисциплины</h2><br>
+				<ul>
+					<li>Теория алгоритмов</li>
+					<li>Компьютерные сети</li>
+					<li>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</li>
+					<li>Операционные системы и среды</li>
+					<li>Системное программирование</li>
+				</ul>
+				
+				<h5>Электронная почта</h5>
+				<a href="mailto:m.v.bagdasaryan-dahlcollege@yandex.ru">m.v.bagdasaryan-dahlcollege@yandex.ru</a><br><br>
+				<h5>Социальные сети</h5>
+				<a href="https://vk.com/id7669012" target="blank"><img src="images/vk.png" height="50"></a>
+				
+			</div>
+		</div>
+		
+		<a name="1-week"></a>
+		<div class="weeks week1"><br>
+			<h2>1 неделя (19-24 Октября)</h2><br>
+			<div>
+				<h4>1П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 1.</b> <i>Решение задач по построению циклических алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/BWLrGqBUy11eww">https://yadi.sk/i/BWLrGqBUy11eww</a><br>
+			</div>
+			<div><br>
+				<h4>2П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 1.</b> <i>Решение задач по построению циклических алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/BWLrGqBUy11eww">https://yadi.sk/i/BWLrGqBUy11eww</a><br>
+				<b>Лекция 2.</b> <i>Работа с циклическими алгоритмами.</i><br>
+				<a href="https://yadi.sk/i/jsskCKlJepOAIQ">https://yadi.sk/i/jsskCKlJepOAIQ</a>
+			</div>
+			<div><br>
+				<h4>1К-19 <i>Компьютерные сети</i></h4>
+				<b>Лекция 1.</b> <i>Понятие и назначение маски подсети.</i><br>
+				<a href="https://yadi.sk/i/bPt3e7xsYI4VKg">https://yadi.sk/i/bPt3e7xsYI4VKg</a><br>
+				<i>Видео:</i><br><a href="https://youtu.be/Uj1XQgRXYOc">https://youtu.be/Uj1XQgRXYOc</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лабораторная работа.</b> <i> Стилевое оформление HTML документа. Создание Web-страниц с применением свойств для фона страницы, списков, применение рамок для обрамления.</i><br>
+				<a href="https://yadi.sk/i/weKNIadMjjezdw">https://yadi.sk/i/weKNIadMjjezdw</a><br>
+				<b>Лабораторная работа.</b> <i> Создание html-старницы с вложенной CSS по методу табличной верстки.</i><br>
+				<a href="https://yadi.sk/i/rqUZK3A8vk6MXw">https://yadi.sk/i/rqUZK3A8vk6MXw</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Операционные системы и среды</i></h4>
+				<b>Лабораторная работа № 11 </b><i>Аудит ресурсов и событий.</i><br>
+				<a href="https://yadi.sk/i/9tSJtqfYc1rIgA ">https://yadi.sk/i/9tSJtqfYc1rIgA </a><br>
+				<b>Лабораторная работа № 12 </b><i>Внутренняя политика безопасности Windows.</i><br>
+				<a href="https://yadi.sk/i/iaNjxVpqWYPz5w">https://yadi.sk/i/iaNjxVpqWYPz5w</a><br>
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лабораторная работа №3. </b><i>Операторы структурного программирования.</i><br>
+				<a href="https://yadi.sk/i/TOwAJX6gJE_XLw">https://yadi.sk/i/TOwAJX6gJE_XLw</a><br>
+				<b>Лекция №1 </b><i>Основные типы операндов.</i><br>
+				<a href="https://yadi.sk/i/-_Bna_aKY7virQ">https://yadi.sk/i/-_Bna_aKY7virQ</a><br>
+				<b>Лекция №2 </b><i>Библиотека import java.util.scanner и методы её использования</i><br>
+				<a href="https://yadi.sk/i/kjqC8sswuIdFMA">https://yadi.sk/i/kjqC8sswuIdFMA</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лекция №3 </b><i>Типы данных в Java.</i><br>
+				<a href="https://yadi.sk/i/JqP07RVx3obsSQ">https://yadi.sk/i/JqP07RVx3obsSQ </a><br>
+				<b>Лабораторная работа №3. </b><i>Операторы структурного программирования.</i><br>
+				<a href="https://yadi.sk/i/TOwAJX6gJE_XLw">https://yadi.sk/i/TOwAJX6gJE_XLw </a><br>
+			</div>
+		</div>
+		<a name="2-week"></a>
+		<div class="weeks week2" bgcolor="#99CCFF"><br>
+			<h2>2 неделя (26-31 Октября)</h2><br>
+			<div>
+				<h4>1П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 3.</b> <i>Реализация элементов блок-схемы алгоритма на языке Pascal.</i><br>
+				<a href="https://yadi.sk/i/aODmhpKWUmvyUw">https://yadi.sk/i/aODmhpKWUmvyUw</a><br>
+				<b>Лекция 4.</b> <i>Работа со вспомогательными алгоритмами (подпрограммами).</i><br>
+				<a href="https://yadi.sk/i/funOLVZniCp49w">https://yadi.sk/i/funOLVZniCp49w</a>
+			</div>
+			<div><br>
+				<h4>2П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 1.</b> <i>Решение задач по построению циклических алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/BWLrGqBUy11eww">https://yadi.sk/i/BWLrGqBUy11eww</a><br>
+			</div>
+			<div><br>
+				<h4>1К-19 <i>Компьютерные сети</i></h4>
+				<b>Лабораторная работа</b> <i>Изучение IP-адресации сети и маски подсети.</i><br>
+				<a href="https://yadi.sk/i/0BwkjNckj9oKxA">https://yadi.sk/i/0BwkjNckj9oKxA</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лекция 1</b> <i> Позиционирование с помощью CSS. Размещение блочных элементов HTML-разметки в рабочей области браузера с точностью до пикселя.</i><br>
+				<a href="https://yadi.sk/i/w2yWLXNrO-VZdg">https://yadi.sk/i/w2yWLXNrO-VZdg</a><br>
+				<b>Лабораторная работа.</b> <i>Создание html-старницы с вложенной CSS по методу блочной верстки страниц.</i><br>
+				<a href="https://yadi.sk/i/l_PkByTOw-5VlA">https://yadi.sk/i/l_PkByTOw-5VlA</a><br>
+				<b>Лекция 2</b> <i>Адаптация интерфейса. Фильтры. </i><br>
+				<a href="https://yadi.sk/i/E6fFRotgP_g3Hg">https://yadi.sk/i/E6fFRotgP_g3Hg</a><br>
+				<b>Лекция 3</b> <i>Слои: Абсолютное позиционирование. Горизонтальное позиционирование. Вертикальное позиционирование.</i><br>
+				<a href="https://yadi.sk/i/2DQnmVHz1qtcSA">https://yadi.sk/i/2DQnmVHz1qtcSA</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Операционные системы и среды</i></h4>
+				<b>Лабораторная работа № 13</b> <i>Консоль MMC. Редактор локальной групповой политики. Оснастка Локальная политика безопасности.</i><br>
+				<a href="https://yadi.sk/i/Yejn3LtzNptRWA">https://yadi.sk/i/Yejn3LtzNptRWA</a><br>
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лабораторная работа №4.</b> <i>Основы работы с массивами.</i><br>
+				<a href="https://yadi.sk/i/lrvrIkocRDhfDA">https://yadi.sk/i/lrvrIkocRDhfDA</a><br>
+				<b>Лекция 4</b> <i>Команда логического сравнения. Переходы по условию.</i><br>
+				<a href="https://yadi.sk/i/J_ehL9Yml6Ltog">https://yadi.sk/i/J_ehL9Yml6Ltog</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 1</b> <i>Основные типы операндов</i><br>
+				<a href="https://yadi.sk/i/-_Bna_aKY7virQ">https://yadi.sk/i/-_Bna_aKY7virQ</a><br>
+				<b>Лекция 2</b> <i>Библиотека import java.util.scanner и методы её использования.</i><br>
+				<a href="https://yadi.sk/i/kjqC8sswuIdFMA">https://yadi.sk/i/kjqC8sswuIdFMA</a><br>
+				<b>Лабораторная работа №4</b> <i>Лабораторная работа №4. Основы работы с массивами.</i><br>
+				<a href="https://yadi.sk/i/lrvrIkocRDhfDA">https://yadi.sk/i/lrvrIkocRDhfDA</a><br>
+			</div>
+		</div>
+		<a name="3-week"></a>
+		<div class="weeks week3"><br>
+			<h2>3 неделя (2-7 ноября)</h2><br>
+			<div>
+				<h4>1П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 5</b> <i>Решение задач по построению вспомогательных алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/35FSIi0y8UvTQw">https://yadi.sk/i/35FSIi0y8UvTQw</a><br>
+			</div>
+			<div><br>
+				<h4>2П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 3</b> <i>Реализация элементов блок-схемы алгоритма на языке Pascal.</i><br>
+				<a href="https://yadi.sk/i/aODmhpKWUmvyUw">https://yadi.sk/i/aODmhpKWUmvyUw</a><br>
+				<b>Лекция 4</b> <i>Работа со вспомогательными алгоритмами (подпрограммами).</i><br>
+				<a href="https://yadi.sk/i/funOLVZniCp49w">https://yadi.sk/i/funOLVZniCp49w</a><br>
+			</div>
+			<div><br>
+				<h4>1К-19 <i>Компьютерные сети</i></h4>
+				<b>Лекция 2</b> <i>Протокол ICMP и команда ping.</i><br>
+				<a href="https://yadi.sk/i/j7hV35o25p_8Og">https://yadi.sk/i/j7hV35o25p_8Og</a><br>
+				<i>Видео:</i><br>
+				<a href="https://youtu.be/9iG6ECpF-ko">https://youtu.be/9iG6ECpF-ko</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лекция 4</b> <i>Таблицы в CSS. Слои и прозрачность таблицы. Вертикальное и горизонтальное выравнивание. Динамические эффекты строк и столбцов. Стили границ.</i><br>
+				<a href="https://yadi.sk/i/EvCvKuWIrNotng">https://yadi.sk/i/EvCvKuWIrNotng</a><br>
+				<b>Лабораторная работа.</b> <i>Web-страница с горизонтально и вертикально ориентированным блоком навигации.</i><br>
+				<a href="https://yadi.sk/i/aspMI-kDnkLYoA">https://yadi.sk/i/aspMI-kDnkLYoA</a><br>
+				<b>Лекция 5</b> <i>Введение в язык программирования JavaScript. Основы JavaScript. Лексическая структура.</i><br>
+				<a href="https://learn.javascript.ru/intro">https://learn.javascript.ru/intro</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Операционные системы и среды</i></h4>
+				<b>Лабораторная работа № 13.</b> <i>Консоль MMC. Редактор локальной групповой политики. Оснастка Локальная политика безопасности. Продолжение.</i><br>
+				<a href="https://yadi.sk/i/Yejn3LtzNptRWA">https://yadi.sk/i/Yejn3LtzNptRWA</a><br>
+				<b>Лекция 1</b> <i>Назначение, структура, методы редактирования реестра. Резервное копирование и восстановление реестра.</i><br>
+				<a href="https://yadi.sk/i/6TUS5FTwzcmr9w">https://yadi.sk/i/6TUS5FTwzcmr9w</a><br>
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лабораторная работа №5.</b> <i>Работа с одномерными, многомерными и несимметричными массивами.</i><br>
+				<a href="https://yadi.sk/i/3nduR6SA1IcVtw">https://yadi.sk/i/3nduR6SA1IcVtw</a><br>
+				<b>Лекция 5</b> <i>Основы работы с массивами. Работа с одномерными, многомерными и несимметричными массивами.</i><br>
+				<a href="https://javarush.ru/groups/posts/mnogomernye-massivy">https://javarush.ru/groups/posts/mnogomernye-massivy</a><br>
+				<b>Лабораторная работа №6.</b> <i>Работа со строками в Java.</i><br>
+				<a href="https://yadi.sk/i/hAzsAa7KmwslCg">https://yadi.sk/i/hAzsAa7KmwslCg</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 4</b> <i>Команда логического сравнения. Переходы по условию.</i><br>
+				<a href="https://yadi.sk/i/J_ehL9Yml6Ltog">https://yadi.sk/i/J_ehL9Yml6Ltog</a><br>
+				<b>Лабораторная работа №5.</b> <i>Работа с одномерными, многомерными и несимметричными массивами.</i><br>
+				<a href="https://yadi.sk/i/3nduR6SA1IcVtw">https://yadi.sk/i/3nduR6SA1IcVtw</a><br>
+			</div>
+		</div>
+		<a name="4-week"></a>
+		<div class="weeks week4"><br>
+			<h2>4 неделя (9-14 ноября)</h2><br>
+			<div>
+				<h4>1П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 6</b> <i>Работа с алгоритмами обработки массивов. Алгоритмы сортировки.</i><br>
+				<a href="https://yadi.sk/i/0BRLgcPe5euh3w">https://yadi.sk/i/0BRLgcPe5euh3w</a><br>
+				<b>Лекция 7</b> <i>Применение оператора выбора Case.</i><br>
+				<a href="https://yadi.sk/i/969wvcfVx8DDng">https://yadi.sk/i/969wvcfVx8DDng</a><br>
+			</div>
+			<div><br>
+				<h4>2П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 5</b> <i>Решение задач по построению вспомогательных алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/35FSIi0y8UvTQw">https://yadi.sk/i/35FSIi0y8UvTQw</a><br>
+			</div>
+			<div><br>
+				<h4>1К-19 <i>Компьютерные сети</i></h4>
+				<b>Лекция 3</b> <i>Понятие VLAN. Реализации локальных сетей с применением VLAN.</i><br>
+				<a href="https://yadi.sk/i/ZbV-sdbYFY6pnw">https://yadi.sk/i/ZbV-sdbYFY6pnw </a><br>
+				<i>Видео:</i><br>
+				<a href="2.	https://youtu.be/Ig4WoXWzhNc">2.	https://youtu.be/Ig4WoXWzhNc</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лекция 6</b> <i>Типы данных. Выражения и операторы.  Операторы сравнения и логические значения.</i><br>
+				<a href="https://learn.javascript.ru/types">1.	https://learn.javascript.ru/types </a><br>
+				<a href="https://learn.javascript.ru/operators">2.	https://learn.javascript.ru/operators </a><br>
+				<a href="https://learn.javascript.ru/comparison">3.	https://learn.javascript.ru/comparison</a><br>
+				<b>Лекция 7</b> <i>Встраивание js-кода в html-документ. Пишем первый скрипт</i><br>
+				<a href="https://javascript.ru/tutorial/foundation/start">https://javascript.ru/tutorial/foundation/start</a><br>
+				<b>Лабораторная работа.</b> <i>Создание простых сценариев JavaScript. Вставка сценариев в HTML – документ.</i><br>
+				<a href="https://yadi.sk/i/qbLbv2GezzHy3w">https://yadi.sk/i/qbLbv2GezzHy3w</a><br>
+				<b>Лекция 8</b> <i>Ввод/вывод информации с помощью JavaScript: окна вывода сообщений, окно подтверждения в браузере, окно запросов.</i><br>
+				<a href="https://learn.javascript.ru/alert-prompt-confirm">https://learn.javascript.ru/alert-prompt-confirm</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Операционные системы и среды</i></h4>
+				<b>Лабораторная работа № 14.</b> <i>Распределение прав пользователя.</i><br>
+				<a href="https://yadi.sk/d/uzS-qS2W21aXWQ">https://yadi.sk/d/uzS-qS2W21aXWQ</a><br>
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 6</b> <i>Основные функции для работы со строками в Java.</i><br>
+				<a href="https://yadi.sk/i/EXCvvdr1ciKDNw">https://yadi.sk/i/EXCvvdr1ciKDNw</a><br>
+				<b>Лекция 7</b> <i>Управление строками.</i><br>
+				<a href="https://yadi.sk/i/EXCvvdr1ciKDNw">https://yadi.sk/i/EXCvvdr1ciKDNw</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 5</b> <i>Основы работы с массивами. Работа с одномерными, многомерными и несимметричными массивами.</i><br>
+				<a href="https://javarush.ru/groups/posts/mnogomernye-massivy">https://javarush.ru/groups/posts/mnogomernye-massivy</a><br>
+				<b>Лабораторная работа №6.</b> <i>Работа со строками в Java.</i><br>
+				<a href="https://yadi.sk/i/hAzsAa7KmwslCg">https://yadi.sk/i/hAzsAa7KmwslCg</a><br>
+				<b>Лекция 7</b> <i>Управление строками.</i><br>
+				<a href="https://yadi.sk/i/EXCvvdr1ciKDNw">https://yadi.sk/i/EXCvvdr1ciKDNw</a><br>
+			</div>
+		</div>
+		<a name="5-week"></a>
+		<div class="weeks week5"><br>
+			<h2>5 неделя (16-21 ноября)</h2><br>
+			<div>
+				<h4>1П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 8.</b> <i>Описание схем в ЕСПД. ГОСТ для построения блок-схем алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/bpTrDJZ02EPV0g">https://yadi.sk/i/bpTrDJZ02EPV0g</a><br>
+			</div>
+			<div><br>
+				<h4>2П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 6</b> <i>Работа с алгоритмами обработки массивов. Алгоритмы сортировки.</i><br>
+				<a href="https://yadi.sk/i/0BRLgcPe5euh3w">https://yadi.sk/i/0BRLgcPe5euh3w</a><br>
+				<b>Лекция 7</b> <i>Применение оператора выбора Case.</i><br>
+				<a href="https://yadi.sk/i/969wvcfVx8DDng">https://yadi.sk/i/969wvcfVx8DDng</a><br>
+			</div>
+			<div><br>
+				<h4>1К-19 <i>Компьютерные сети</i></h4>
+				<b>Лекция 4.</b> <i>Система доменных имён DNS. Протоколы HTTP и FTP.</i><br>
+				<a href="https://yadi.sk/i/bfRYjyw9kSQmAw ">https://yadi.sk/i/bfRYjyw9kSQmAw </a><br>
+				<i>Видео:</i><br>
+				<a href="https://youtu.be/B0J0c0KLtbQ">1.	https://youtu.be/B0J0c0KLtbQ</a><br>
+				<a href="https://youtu.be/yAlm-jTneeY">2.	https://youtu.be/yAlm-jTneeY</a><br>
+				<a href="https://youtu.be/mvMYV0Hfig4">3.	https://youtu.be/mvMYV0Hfig4</a><br>
+				<a href="https://youtu.be/RlccXUx4LVw">4.	https://youtu.be/RlccXUx4LVw</a><br>
+				<a href="https://youtu.be/Uji0sQ-Co7Q">5.	https://youtu.be/Uji0sQ-Co7Q</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лабораторная работа.</b> <i>Ввод и вывод данных. JavaScript функции для работы с типами данных</i><br>
+				<a href="https://yadi.sk/i/Ez8Kyhh0bAy9XA">https://yadi.sk/i/Ez8Kyhh0bAy9XA</a><br>
+				<b>Лабораторная работа.</b> <i>Организация решения выражений с помощью специального объекта «Math» в JavaScript.</i><br>
+				<a href="https://yadi.sk/i/y-Qeb375hgvFxQ">https://yadi.sk/i/y-Qeb375hgvFxQ</a><br>
+				<b>Лекция 9</b> <i>Инструкция ветвления. Инструкции цикла. Инструкции continue, break.</i><br>
+				<a href="https://learn.javascript.ru/ifelse">1.	https://learn.javascript.ru/ifelse</a><br>
+				<a href="https://learn.javascript.ru/while-for">2.	https://learn.javascript.ru/while-for</a><br>
+				<a href="https://learn.javascript.ru/switch">3.	https://learn.javascript.ru/switch</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Операционные системы и среды</i></h4>
+				<b>Лабораторная работа № 15.</b> <i>Параметры безопасности и политика обновления.</i><br>
+				<a href="https://yadi.sk/i/AxfrA4H_Eap32w">https://yadi.sk/i/AxfrA4H_Eap32w</a><br>
+				<b>Лабораторная работа № 16.</b> <i>Настройка пользовательского интерфейса в ОС Windows. Построение защищенной файловой системы.</i><br>
+				<a href="https://yadi.sk/i/6T3fuTB4AOQWyA">https://yadi.sk/i/6T3fuTB4AOQWyA</a><br>
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 8</b> <i>Основы обработки исключений в Java.</i><br>
+				<a href="https://yadi.sk/i/biKFAcxuAW99Ng">https://yadi.sk/i/biKFAcxuAW99Ng </a><br>
+				<b>Лекция 9</b> <i>Обработка исключений в Java.</i><br>
+				<a href="https://yadi.sk/i/IN8VtXiI3zXMVg">https://yadi.sk/i/IN8VtXiI3zXMVg</a><br>
+				<b>Лабораторная работа №7.</b> <i>Управление строками. Основные функции для работы со строками в Java.</i><br>
+				<a href="https://yadi.sk/i/iEgIM8aVjGTsbQ">https://yadi.sk/i/iEgIM8aVjGTsbQ</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 6</b> <i>Основные функции для работы со строками в Java.</i><br>
+				<a href="https://yadi.sk/i/xf9GlZRKhgMUNA">https://yadi.sk/i/xf9GlZRKhgMUNA</a><br>
+				<b>Лекция 8</b> <i>Основы обработки исключений в Java.</i><br>
+				<a href="https://yadi.sk/i/biKFAcxuAW99Ng">https://yadi.sk/i/biKFAcxuAW99Ng</a><br>
+			</div>
+		</div>
+		<a name="6-week"></a>
+		<div class="weeks week6"><br>
+			<h2>6 неделя (23-28 ноября)</h2><br>
+			<div>
+				<h4>1П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 9.</b> <i>Средства построения блок-схем алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/OxEzioF9xDlaYw">https://yadi.sk/i/OxEzioF9xDlaYw</a><br>
+				<b>Лекция 10.</b> <i>Современное ПО для построения блок-схем алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/Jd8Tf5sbBBcdvg">https://yadi.sk/i/Jd8Tf5sbBBcdvg</a><br>
+			</div>
+			<div><br>
+				<h4>2П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 8.</b> <i>Описание схем в ЕСПД. ГОСТ для построения блок-схем алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/bpTrDJZ02EPV0g">https://yadi.sk/i/bpTrDJZ02EPV0g</a><br>
+			</div>
+			<div><br>
+				<h4>1К-19 <i>Компьютерные сети</i></h4>
+				<b>Лекция 5</b> <i>Службы сети интернет - WWW, e mail. Браузеры. Поисковые системы.</i><br>
+				<a href="https://yadi.sk/i/iOvA2O1vbMHuIQ">https://yadi.sk/i/iOvA2O1vbMHuIQ</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лабораторная работа.</b> <i>Применение условных операторов языка JavaScript.</i><br>
+				<a href="https://yadi.sk/i/QFZ4bEl7O42Agg">https://yadi.sk/i/QFZ4bEl7O42Agg</a><br>
+				<b>Лабораторная работа.</b> <i>Применение циклических операторов языка JavaScript.</i><br>
+				<a href="https://yadi.sk/i/vfrBOcjfy3CrQA">https://yadi.sk/i/vfrBOcjfy3CrQA</a><br>
+				<b>Лекция 10.</b> <i>Инструкция перехвата и обработки исключения (try/catch/finally, тип данных Error)</i><br>
+				<a href="https://learn.javascript.ru/exception">1.	https://learn.javascript.ru/exception </a><br>
+				<a href="https://learn.javascript.ru/try-catch">2.	https://learn.javascript.ru/try-catch</a><br>
+				<b>Лабораторная работа.</b> <i>Обработка исключений</i><br>
+				<a href="https://yadi.sk/i/eWwKQTGM-7KqtQ">https://yadi.sk/i/eWwKQTGM-7KqtQ</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Операционные системы и среды</i></h4>
+				<b>Лекция 2.</b> <i>Назначение и характеристики архиваторов. Принципы работы с архиваторами.</i><br>
+				<a href="https://yadi.sk/i/zIC1FhBbkhsEzw">https://yadi.sk/i/zIC1FhBbkhsEzw</a><br>
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 10.</b> <i>Обработка исключений нескольких типов.</i><br>
+				<a href="https://yadi.sk/i/IN8VtXiI3zXMVg">https://yadi.sk/i/IN8VtXiI3zXMVg</a><br>
+				<b>Лабораторная работа №8.</b> <i>Обработка исключений Java.</i><br>
+				<a href="https://yadi.sk/i/chjcrajuTZ38yA">https://yadi.sk/i/chjcrajuTZ38yA</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 9.</b> <i>Обработка исключений в Java.</i><br>
+				<a href="https://yadi.sk/i/IN8VtXiI3zXMVg">https://yadi.sk/i/IN8VtXiI3zXMVg</a><br>
+				<b>Лабораторная работа №7.</b> <i>Управление строками. Основные функции для работы со строками в Java.</i><br>
+				<a href="https://yadi.sk/i/iEgIM8aVjGTsbQ">https://yadi.sk/i/iEgIM8aVjGTsbQ</a><br>
+				<b>Лекция 10.</b> <i>Обработка исключений нескольких типов.</i><br>
+				<a href="https://yadi.sk/i/6tEUVfFvz88REA">https://yadi.sk/i/6tEUVfFvz88REA</a><br>
+			</div>
+		</div>
+		<a name="7-week"></a>
+		<div class="weeks week7"><br>
+			<h2>7 неделя (30 ноября - 5 декабря)</h2><br>
+			<div>
+				<h4>1П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 11.</b> <i>Построение блок-схем алгоритмов средствами MS Visio</i><br>
+				<a href="https://yadi.sk/i/V8HAzOfGQJ0iKA">https://yadi.sk/i/V8HAzOfGQJ0iKA</a><br>
+			</div>
+			<div><br>
+				<h4>2П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лекция 9.</b> <i>Средства построения блок-схем алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/OxEzioF9xDlaYw">https://yadi.sk/i/OxEzioF9xDlaYw </a><br>
+				<b>Лекция 10.</b> <i>Современное ПО для построения блок-схем алгоритмов.</i><br>
+				<a href="https://yadi.sk/i/Jd8Tf5sbBBcdvg">https://yadi.sk/i/Jd8Tf5sbBBcdvg </a><br>
+			</div>
+			<div><br>
+				<h4>1К-19 <i>Компьютерные сети</i></h4>
+				<b>Лекция 6.</b> <i>Электронная коммерция. Интернет-магазины. Системы платежей в Интернете.</i><br>
+				<a href="https://yadi.sk/i/1QK4eiayY1pyew">https://yadi.sk/i/1QK4eiayY1pyew</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лекция 11.</b> <i>Функции JavaScript.  Определение и вызов функций.</i><br>
+				<a href="https://learn.javascript.ru/function-basics">https://learn.javascript.ru/function-basics</a><br>
+				<b>Лекция 12.</b> <i>Введение в браузерные события.</i><br>
+				<a href="https://learn.javascript.ru/introduction-browser-events">https://learn.javascript.ru/introduction-browser-events/a><br>
+				<b>Лабораторная работа.</b> <i>Работа с функциями в JavaScript.</i><br>
+				<a href="https://yadi.sk/i/tcoTfJp3usqPgw">https://yadi.sk/i/tcoTfJp3usqPgw</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Операционные системы и среды</i></h4>
+				<b>Лабораторная работа № 18.</b> <i>Управление учетными записями  и группами пользователей.</i><br>
+				<a href="https://yadi.sk/i/ZC2RyeUIVrwDrw">https://yadi.sk/i/ZC2RyeUIVrwDrw</a><br>
+				<b>Лекция 3</b> <i>Базовые технологии безопасности. Шифрование. Односторонние функции шифрования. Аутентификация, авторизация, аудит. Пароли. Технология защищенного канала.</i><br>
+				<a href="https://yadi.sk/i/zH5P9L7HXvH4yg">https://yadi.sk/i/zH5P9L7HXvH4yg</a><br>
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 10.</b> <i>ООП, классы, объекты в Java.</i><br>
+				<a href="https://yadi.sk/i/-fdPoW_eETb_Vw">https://yadi.sk/i/-fdPoW_eETb_Vw</a><br>
+				<b>Лабораторная работа №9.</b> <i>Обработка исключений нескольких типов, возникающих в приложениях Java.</i><br>
+				<a href="https://yadi.sk/i/LkJLHENH4xEKgw">https://yadi.sk/i/LkJLHENH4xEKgw</a><br>
+				<b>Лекция 11.</b> <i>Методы в Java.</i><br>
+				<a href="https://yadi.sk/i/yrhaZFe4wcoVpA">https://yadi.sk/i/yrhaZFe4wcoVpA</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лабораторная работа №8.</b> <i>Обработка исключений Java.</i><br>
+				<a href="https://yadi.sk/i/chjcrajuTZ38yA">https://yadi.sk/i/chjcrajuTZ38yA</a><br>
+				<b>Лекция 10.</b> <i>ООП, классы, объекты в Java.</i><br>
+				<a href="https://yadi.sk/i/-fdPoW_eETb_Vw">https://yadi.sk/i/-fdPoW_eETb_Vw</a><br>
+				<b></b> <i></i><br>
+				<a href=""></a><br>
+			</div>
+		</div>
+		<a name="8-week"></a>
+		<div class="weeks week8"><br>
+			<h2>8 неделя (7-12 декабря)</h2><br>
+			<div>
+				<h4>1П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лабораторная работа № 2.</b> <i>Построение блок-схем алгоритмов средствами MS Visio.</i><br>
+				<a href="https://yadi.sk/i/Y681IYNCsfye0A">https://yadi.sk/i/Y681IYNCsfye0A</a><br>
+				<b>Лабораторная работа № 3.</b> <i>Построение блок-схем алгоритмов средствами MS Visio.</i><br>
+				<a href="https://yadi.sk/i/WXB5eSAActZ3Og">https://yadi.sk/i/WXB5eSAActZ3Og</a><br>
+			</div>
+			<div><br>
+				<h4>2П-19 <i>Теория алгоритмов</i></h4>
+				<b>Лабораторная работа № 1.</b> <i>Построение блок-схем алгоритмов средствами MS Visio.</i><br>
+				<a href="https://yadi.sk/i/oqiD-sEGkOxrHw">https://yadi.sk/i/oqiD-sEGkOxrHw</a><br>
+			</div>
+			<div><br>
+				<h4>1К-19 <i>Компьютерные сети</i></h4>
+				<b>Лекция 7</b> <i>Классификация угроз информации в компьютерных сетях.</i><br>
+				<a href="https://yadi.sk/i/RmFV1-LIeWnSww">https://yadi.sk/i/RmFV1-LIeWnSww</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лекция 13.</b> <i>Массивы JavaScript. Создание массива. Операции с массивом.</i><br>
+				<a href="https://learn.javascript.ru/array">https://learn.javascript.ru/array</a><br>
+			</div>
+			<div><br>
+				<h4>1ПИ-18 <i>Операционные системы и среды</i></h4>
+				<b>Лабораторная работа № 19.</b> <i>Установка операционной системы Linux.</i><br>
+				<a href="https://yadi.sk/i/Bi83vP21sotYRQ">https://yadi.sk/i/Bi83vP21sotYRQ</a><br>
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лабораторная работа №10.</b> <i>ООП, классы, объекты в Java.</i><br>
+				<a href="https://yadi.sk/i/z1vESSZyzXGklw">https://yadi.sk/i/z1vESSZyzXGklw</a><br>
+				<b>Лабораторная работа №11.</b> <i>Методы, конструкторы в Java.</i><br>
+				<a href="https://yadi.sk/i/z1vESSZyzXGklw">https://yadi.sk/i/z1vESSZyzXGklw</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лабораторная работа №9.</b> <i>Обработка исключений нескольких типов, возникающих в приложениях Java.</i><br>
+				<a href="https://yadi.sk/i/LkJLHENH4xEKgw">https://yadi.sk/i/LkJLHENH4xEKgw</a><br>
+				<b>Лекция 11.</b> <i>Методы в Java.</i><br>
+				<a href="https://yadi.sk/i/yrhaZFe4wcoVpA">https://yadi.sk/i/yrhaZFe4wcoVpA</a><br>
+				<b>Лабораторная работа №10.</b> <i>ООП, классы, объекты в Java.</i><br>
+				<a href="https://yadi.sk/i/z1vESSZyzXGklw">https://yadi.sk/i/z1vESSZyzXGklw</a><br>
+			</div>
+		</div>
+		<a name="9-week"></a>
+		<div class="weeks week9"><br>
+			<h2>9 неделя (14-19 декабря)</h2><br>
+			<div>
+				<h4>1ПИ-18 <i>Разработка, внедрение и адаптация программного обеспечения отраслевой направленности</i></h4>
+				<b>Лабораторная работа.</b> <i>Обработка и представление дат</i><br>
+				<a href="https://yadi.sk/i/GueIvsG6TSiRUA">https://yadi.sk/i/GueIvsG6TSiRUA</a><br>
+				
+
+			</div>
+			<div><br>
+				<h4>1П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 12.</b> <i>Конструкторы в Java.</i><br>
+				<a href="https://yadi.sk/i/mYR-CQzjd_E1UA">https://yadi.sk/i/mYR-CQzjd_E1UA</a><br>
+				<b>Лекция 13.</b> <i>Наследование в Java.</i><br>
+				<a href="https://yadi.sk/i/X7NGOo0AtijXuQ">https://yadi.sk/i/X7NGOo0AtijXuQ</a><br>
+				<b>Лекция 14.</b> <i>Потоки в Java</i><br>
+				<a href="https://yadi.sk/i/coxGVmtuws124g">https://yadi.sk/i/coxGVmtuws124g</a><br>
+			</div>
+			<div><br>
+				<h4>2П-18 <i>Системное программирование</i></h4>
+				<b>Лекция 12.</b> <i>Конструкторы в Java.</i><br>
+				<a href="https://yadi.sk/i/mYR-CQzjd_E1UA">https://yadi.sk/i/mYR-CQzjd_E1UA</a><br>
+				<b>Лабораторная работа №11.</b> <i>Методы, конструкторы в Java.</i><br>
+				<a href="https://yadi.sk/i/cXSaOq4D7YSWkA">https://yadi.sk/i/cXSaOq4D7YSWkA</a><br>
+				
+			</div>
+		</div>
+	</div>
+	<div class="footer">3</div>
+</div>
+
+</body>
+</html>
